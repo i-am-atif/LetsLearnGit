@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-	fmt.Println(factorial(5))
+	fmt.Println("the factorial is", factorial(5))
 }
 func factorial(num int) int {
 	if num == 0 {
